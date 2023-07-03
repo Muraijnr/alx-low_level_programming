@@ -3,8 +3,7 @@
  * _strchr - searchs for a character in a string
  * @s: string to be searched
  * @c: character to be searched
- * Return: s+index
- * Return: NULL
+ * Return: s+index if found and NULL if not found
  */
 char *_strchr(char *s, char c)
 {

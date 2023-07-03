@@ -2,7 +2,7 @@
 /**
  * _memcpy - string to be copied
  * @dest: dest string
- * @src: source of character 
+ * @src: source of character
  * @n: bites to be concidered
  * Return: dest
  */
