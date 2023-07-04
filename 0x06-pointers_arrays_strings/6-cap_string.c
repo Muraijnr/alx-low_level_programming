@@ -25,10 +25,10 @@ char *cap_string(char *str)
             }
         } 
         else /*executed if character was not alphabetic*/
-    {
-        cap_next = 1;
-    }
-    str++;
+        {
+            cap_next = 1;
+        }
+        str++;
     }
     return (result);
 }
