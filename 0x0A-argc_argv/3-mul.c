@@ -54,10 +54,10 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 			return (1);
 	}
-	
+
 	count1 = _atoi(argv[1]);
 	count2 = _atoi(argv[2]);
 	result = count1 * count2;
-	printf("%d\n", result);	
+	printf("%d\n", result);
 	return (0);
 }
