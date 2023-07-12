@@ -9,7 +9,7 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	unsigned int a, c;
+	unsigned int a = 0, c = 0;
 	char *ac, *both;
 
 	ac = s1;
@@ -29,11 +29,13 @@ char *str_concat(char *s1, char *s2)
 	both = malloc(a + c + 1);
 	if (!both)
 		return (NULL);
+
 	ac = both;
 	while (*s1)
 		*ac++ = *s1++;
 	while (*s2)
 		*ac++ = *s2++;
 	*ac = 0;
+
 	return (both);
 }
