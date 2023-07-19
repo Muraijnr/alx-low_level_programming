@@ -19,9 +19,7 @@ int op_add(int a, int b)
  */
 int op_sub(int a, int b)
 {
-	if (a > b)
-		return (a - b);
-	return (b - a);
+	return (a -b);
 }
 /**
  * op_mul - gives multiplication of two numbers
