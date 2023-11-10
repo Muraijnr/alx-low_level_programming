@@ -1,4 +1,5 @@
-#include <stdarg>
+#include <stdarg.h>
+#include <stdio.h>
 
 /**
  * print_numbers - prints integers
@@ -20,7 +21,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	if (n > 0)
 		printf("%d", va_arg(args, int));
-	for (a = 0; a < n; a++)
+	for (a = 1; a < n; a++)
 		printf("%s%d", sep, va_arg(args, int));
 	printf("\n");
 	va_end(args);
